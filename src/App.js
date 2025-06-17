@@ -1,3 +1,4 @@
+import { MainComponentLifeCycle } from "./ComponentLifeCycle/MainComponentLifeCycle";
 import { MainComponent } from "./Components/MainComponent";
 import MainConditionalRendering from "./ConditionalRendering/MainConditionalRendering";
 import { MainStateProps } from "./State&Props/MainStateProps";
@@ -8,6 +9,7 @@ function App() {
       <MainComponent/>
       <MainStateProps/>
       <MainConditionalRendering/>
+      <MainComponentLifeCycle/>
     </div>
   );
 }
